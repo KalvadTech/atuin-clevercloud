@@ -7,4 +7,4 @@ set -x
 rm -rf $APP_HOME/atuin*
 wget -O atuin.tar.gz https://github.com/ellie/atuin/releases/download/v${ATUIN_VERSION}/atuin-v${ATUIN_VERSION}-x86_64-unknown-linux-gnu.tar.gz
 tar xvzf atuin.tar.gz
-cp atuin-v0.9.1-x86_64-unknown-linux-gnu/atuin ./
+cp atuin-v${ATUIN_VERSION}-x86_64-unknown-linux-gnu/atuin ./
