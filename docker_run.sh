@@ -12,4 +12,4 @@ open_registration = true
 db_uri="$POSTGRESQL_ADDON_URI"
 EOF
 
-./atuin server start
+/home/app/.atuin/bin/atuin server start
