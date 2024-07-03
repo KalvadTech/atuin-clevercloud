@@ -31,4 +31,5 @@ USER app
 RUN curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
 
 COPY --chown=app:app docker_run.sh docker_run.sh
+EXPOSE 8080
 CMD ["./docker_run.sh"]
